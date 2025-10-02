@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lala - Personal Page</title>
+    <style>
+        /* Background style */
+        body {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: hwb(211 76% 0%);
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: hsl(234, 91%, 96%);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header style */
+        header {
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        h1 {
+            color: #002c8a;
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #5c6bc0;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px dashed #c5cae9;
+            font-size: 1.8rem;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 35px;
+            padding: 25px;
+            border-radius: 10px;
+            background: #fafafa;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+         /* Intro Section */
+        .intro {
+            font-style: italic;
+            text-align: center;
+            background: linear-gradient(to right, #e8eaf6, #f3e5f5);
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        /* University Section */
+        .university {
+            background: linear-gradient(to right, #e3f2fd, #e8eaf6);
+        }
+        
+        .university a {
+            color: #5c6bc0;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        
+        /* About Section */
+        .about {
+            background: linear-gradient(to right, #f3e5f5, #e8eaf6);
+        }
+        
+        .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .hobby{
+            background: #f4affa;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+         .foods {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .food{
+            background: #d783ea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Photo Section */
+        .photo {
+            text-align: center;
+            background: linear-gradient(to right, #e0f2f1, #e8eaf6);
+        }
+        
+        .photo img {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            height: auto;
+        }
+
+         .photo p {
+            margin-top: 15px;
+            font-style: italic;
+            color: #666;
+        }
+
+         /* Canteen Rating Section */
+        .rating {
+            background: linear-gradient(to right, #e8eaf6, #e3f2fd);
+        }
+        
+        .rating ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .rating li {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+           .canteen-name {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #5c6bc0;
+            margin-bottom: 5px;
+        }
+        
+        .stars {
+            color: #ff9800;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        .rating p {
+            margin: 0;
+            padding-left: 15px;
+            border-left: 3px solid #c5cae9;
+            color: #555;
+        }</style>
+</head>
+<div class="container">
+        <header>
+            <h1>Hello, I'm Lala!</h1>
+            <p>Criminology & Sociology Student</p>
+        </header>
+
+        <section class="intro">
+        <p>Welcome to my personal webpage. Here, you'll find a little bit about me, my interests, and some of my favorite things.🎉</p>
+        </section>
+
+         <section class="university">  
+            <h2>Education</h2>
+            <p>I'm a student of <a href="https://www.cityu.edu.hk" target="_blank">CityU</a> studying Bachelor's Degree in Criminology and Sociology.</p>
+        </section>
+         
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I enjoy exploring new opportunities and challenges that help me expand my skills and knowledge.</p>
+            <p>In my leisure time, I love:</p>
+            <div class="hobbies">
+                <span class="hobby">Drawing</span>
+                <span class="hobby">Painting</span>
+                <span class="hobby">Flower Arrangement</span>
+                <span class="hobby">Cooking</span>
+                <span class="hobby">Reading</span>
+                <span class="hobby">Traveling</span>
+                <span class="hobby">Violin</span>
+                
+            </div>
+            <p>My favorite foods are:</p>
+            <div class="foods">
+                <span class="food">Chocolate</span>
+                <span class="food">Salad</span>
+                <span class="food">Parfait</span>
+                <span class="food">Sushi</span>
+                <span class="food">Ice Cream</span>
+                <span class="food">Cake</span>
+                <span class="food">Fruits</span>
+                <span class="food">Cookie</span>
+
+            </div>
+        </section>
+
+        <section class="photo">
+            <h2>My Photo</h2>
+            <img src="Sinman.jpg" alt="Lala's Photo" width="300" height="400">
+            <p>This is a photo of me.(Ofc generated by AI haha.) Guess who am I in class. &#128512;</p>
+        </section>
+
+        <section class="rating">
+            <h2>CityU Canteen Rating</h2>
+            <p>I often visit the CityU canteen and here are my ratings for some of the canteens:</p>
+            <ul>
+                <li>
+                    <div class="canteen-name">AC1</div>
+                    <div class="stars">⭐⭐⭐⭐⭐ (5/5)</div>
+                    <p>Great variety and tasty food.</p>
+                </li>
+                <li>
+                    <div class="canteen-name">AC2</div>
+                    <div class="stars">⭐⭐⭐ (3/5)</div>
+                    <p>Good, but the food is a bit bland to me.</p>
+                </li>
+                <li>
+                    <div class="canteen-name">AC3</div>
+                    <div class="stars">⭐⭐ (2/5)</div>
+                    <p>The food is a bit oily to me.</p>
+                </li>
+            </ul>
+        </section>
+        
+            <p>Thanks for visiting my page!</p>
+        
+    </div>
+</body>
+</html>
